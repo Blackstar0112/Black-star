@@ -1,0 +1,269 @@
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: rgb(0, 0, 0);
+        }
+        button {
+    background-color: blue;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: darkblue;
+    transform: scale(1.1);
+}
+ justify-content: center; /
+    </style>* {
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: black;
+        }
+        .gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* مسافة بين الصور */
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}body {
+  background: linear-gradient(to right, #171717, #e6e6f3);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.contact-section {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #040a12;
+  letter-spacing: 1px;
+}
+
+.contact-section p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+  color: #333;
+}
+
+.contact-info a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+.email-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #0b0f14;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.email-button:hover {
+  background-color: #d1d3d6;
+}
+#scrollToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #0d47a1;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+#loader {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: #121212;
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+.section-nav {
+  position: fixed;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  list-style: none;
+}
+.section-nav li {
+  width: 10px;
+  height: 10px;
+  margin: 10px 0;
+  border-radius: 50%;
+  background: gray;
+  cursor: pointer;
+}
+.section-nav li.active {
+  background: white;
+}
+section {
+  box-shadow: 0 0 10px rgba(255,255,255,0.05);
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+body {
+  font-family: 'Cairo', sans-serif;
+}
+
+@media (max-width:) {
+
+
+
+
+}
+/* إعدادات عامة */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+/* الأزرار */
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: darkblue;
+  transform: scale(1.1);
+}
+
+/* المعرض */
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 10px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+/* قسم التواصل */
+.contact-section {
+  background-color: #111;
+  padding: 60px 20px;
+  text-align: center;
+  border-top: 1px solid #444;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.contact-section p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+  color: #ccc;
+}
+
+.contact-info a {
+  color: #00bfff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* ⚙ RESPONSIVE */
+@media (max-width: 768px) {
+  .gallery img {
+    width: 90%;
+  }
+
+  .contact-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact-section p {
+    font-size: 1rem;
+  }
+}
